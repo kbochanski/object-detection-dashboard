@@ -1,0 +1,1 @@
+PAGES_PATH='app/pages/'
