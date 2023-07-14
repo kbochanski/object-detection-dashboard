@@ -12,7 +12,7 @@ Example object detection application using [Streamlit](https://docs.streamlit.io
 
 ```bash
 # Run app in poetry venv
-./scripts/localdev.sh
+./scripts/run-dev.sh
 
 # Test
 pytest
