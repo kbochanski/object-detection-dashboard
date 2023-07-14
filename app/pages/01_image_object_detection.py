@@ -16,16 +16,11 @@ import numpy as np
 import time
 import sys
 
-# I think pages may be somehow considered package in streamlit framework
 from pages.common.constants import PAGES_PATH
 from pages.image_detection.main import read_image,read_and_configure_darknet,extract_model_info,draw_bounding_boxes
 from pages.image_detection.constants import YOLOV3_CONFIG_PATH,YOLOV3_WEIGHTS_PATH
 
 
-
-
-
-# Full function that I'm working on breaking apart
 def object_detection_image():
 
     # UploadedFile class is a subclass of BytesIO,
